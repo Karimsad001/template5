@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="CSS/final.css">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Noto+Sans+Avestan&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Roboto:wght@100;400;500&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+    </head>
+    <body>
+        <!-- Start Settings Box -->
+        <div class="settings-box">
+            <div class="toggle">
+                <i class="fa-solid fa-gear icon"></i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h4>Colors</h4>
+                    <ul class="colors-list">
+                        <li class="now" data-color="#ffba3c"></li>
+                        <li data-color="#E91E63"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#03A9F4"></li>
+                        <li data-color="#4CAF50"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Random Backgrounds</h4>
+                    <div class="random-backgrounds">
+                        <span class="yes now" data-back="yes">Yes</span>
+                        <span class="no" data-back="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Show Bullets</h4>
+                    <div class="bullets-option">
+                        <span class="yes now" data-display="yes">Yes</span>
+                        <span class="no" data-display="no">No</span>
+                    </div>
+                </div>
+                <button class="reset-options">
+                    Reset Options
+                </button>
+            </div>
+        </div>
+        <!-- End Settings Box -->
+        <!-- Start Nav Bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".about-us">
+                <div class="tool">About Us</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+                <div class="tool">Our Skills</div>
+            </div>
+            <div class="bullet" data-section=".gallery">
+                <div class="tool">Gallery</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tool">Timeline</div>
+            </div>
+            <div class="bullet" data-section=".testimonials">
+                <div class="tool">Testimonials</div>
+            </div>
+        </div>
+        <!-- Start Landing  -->
+        <div class="landing section">
+            <div class="container">
+            <div class="overlay"></div>
+            <div class="header">
+                <div class="container">
+                    <div class="logo">
+                        Special Design
+                    </div>
+                    <div class="links-container">
+                        <ul class="links">
+                            <li>
+                                <a href="#" class="active" data-section=".about-us">About</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".skills">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".gallery">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".timeline">Timeline</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".features">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" data-section=".testimonials">Testimonials</a>
+                            </li>
+                        </ul>
+                        <div class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="introduction-text">
+                <h1>
+                    We Are
+                    <span>Creative</span>
+                    Agency
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur consectetur assumenda dignissimos quo quaerat eius ex nulla blanditiis neque cum. Quis sint veniam quia aliquid nisi saepe asperiores alias cupiditate.</p>
+            </div>
+            </div>
+        </div>
+        <!-- End Landing  -->
+        <!-- Start About Us  -->
+        <div class="container">
+            <div class="about-us section">
+                <div class="info-box">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro vero repudiandae at fuga corrupti molestias labore pariatur odio, commodi tempora unde? Vel, eius veniam. Corporis quia ipsam delectus vel!</p>
+                </div>
+                <div class="image-box">
+                    <img src="imgs/about.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+        <!-- Start Our Skills  -->
+        <div class="skills section">
+            <div class="container">
+                <h2>Our Skills</h2>
+                <div class="skill-box">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-progress">
+                        <span data-size="80"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-progress">
+                        <span data-size="65"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-progress">
+                        <span data-size="95"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-progress">
+                        <span data-size="75"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">PHP</div>
+                    <div class="skill-progress">
+                        <span data-size="80"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">MySQL</div>
+                    <div class="skill-progress">
+                        <span data-size="60"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Skills  -->
+        <!-- Start Gallery -->
+        <div class="gallery section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="images-box">
+                    <img src="imgs/01.png" alt="Image One">
+                    <img src="imgs/02.png" alt="Image Two">
+                    <img src="imgs/03.png" alt="Image Three">
+                    <img src="imgs/04.png" alt="Image Four">
+                    <img src="imgs/05.png" alt="Image Five">
+                    <img src="imgs/06.jpg" alt="Image Six">
+                    <img src="imgs/07.jpg" alt="">
+                    <img src="imgs/08.jpg" alt="">
+                    <img src="imgs/09.jpg" alt="">
+                    <img src="imgs/10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End Gallery -->
+        <!-- Start Timeline -->
+        <div class="timeline section">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2018</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Testing Heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laborum quod rerum fugiat? Inventore unde minima dolorem impedit ipsum cumque odio modi fugit sunt commodi. Tempora, commodi voluptatum! Nobis, itaque.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="right">
+                            <div class="content">
+                                <h3>Testing Heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laborum quod rerum fugiat? Inventore unde minima dolorem impedit ipsum cumque odio modi fugit sunt commodi. Tempora, commodi voluptatum! Nobis, itaque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End TimeLine -->
+        <!-- Start Features -->
+        <div class="features section">
+            <h2>Features</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <img src="imgs/01.png" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/02.png" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/03.png" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/04.png" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/05.png" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+                <div class="feat-box">
+                    <img src="imgs/06.jpg" alt="">
+                    <h4>Development</h4>
+                    <p>We Are Professional Marketers, We Will Do Anything You Imagine In No Time</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Features -->
+        <!-- Start Testimonials -->
+        <div class="testimonials section">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i receive it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Ahmad Mossaad</h4>
+                        <p>CEO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i receive it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Mohamad Ibrahim</h4>
+                        <p>COO At Company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>I am very happy with the product its amazing and i receive it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="https://placehold.it/80/DDD" alt="">
+                        <h4>Karim Sadek</h4>
+                        <p>Marketer At Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- End Testimonials -->
+        <!-- Start Contact Us -->
+        <div class="contact section">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>Contact</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text" placeholder="Your Name" name="username">
+                        <input type="text" placeholder="Your Phone" name="phone">
+                        <input type="text" placeholder="Your Email" name="email">
+                        <input type="text" placeholder="Your Subject" name="subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Start Footer  -->
+        <div class="footer">Created With Love By Karim Sadek</div>
+        <!-- End Footer  -->
+        <!-- End Contact Us -->
+        <script src="final.js"></script>
+    </body>
+</html>
